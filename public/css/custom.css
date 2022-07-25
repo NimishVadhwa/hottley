@@ -1,0 +1,188 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.main-header-left .logo-wrapper {
+    width: 150px;
+}
+
+.default-img {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.no-icon .according-menu {
+    display: none !important;
+}
+
+.tab-default-bg {
+    background: #2ab59a !important;
+}
+
+.nav-menu.custom-scrollbar .no-icon {
+    border-bottom: 1px solid #e6edef;
+    padding-bottom: 10px !important;
+}
+
+.card.income-card.card-secondary {
+    height: 265px!important;
+}
+
+.property-img {
+    height: 60px;
+}
+
+.custom-link-btn {
+    width: 45px;
+    padding: 8px 0px;
+}
+
+.prop-img::after {
+    content: "Add Image";
+    position: absolute;
+    height: 25px;
+    width: 90px;
+    border-radius: 6px;
+    background-color: #6cd1bd;
+    top: 0;
+    font-size: 14px;
+    color: #fff;
+    left: 81%;
+    padding-left: 5px;
+}
+
+.position-initial {
+    position: initial !important;
+}
+
+.position-inherit {
+    position: inherit !important;
+}
+
+.theme-form label {
+    cursor: pointer;
+}
+
+.pro-img-container {
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+/*===== Customized Media Query =====*/
+
+@media (min-width: 576px) {
+    #add-new-voucher .modal-dialog,
+    #edit-voucher .modal-dialog {
+        max-width: 650px;
+        margin: 1.75rem auto;
+    }
+}
+
+.pro-img-container {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.voucher-tag {
+    background-color: #f30c0c;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 99%, 0% 100%);
+    width: 330px;
+    text-align: right;
+}
+
+.confirm-heading {
+    width: 300px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.confirm-img {
+    width: 30px;
+    vertical-align: bottom;
+}
+
+.property-card p {
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.property-card {
+    position: relative;
+}
+
+.property-card::before {
+    content: " ";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #f5f7fb;
+    border-radius: 50%;
+    z-index: 10;
+    top: 205px;
+    left: -45px;
+}
+
+.property-card::after {
+    content: " ";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #f5f7fb;
+    border-radius: 50%;
+    z-index: 10;
+    top: 205px;
+    right: -45px;
+}
+
+.text-main {
+    color: #f30c0c;
+}
+
+.main-color {
+    background-color: #f30c0c !important;
+    border-color: #f30c0c !important;
+}
+
+.property-img {
+    width: 250px;
+    height: 100%;
+    margin: 0 auto
+}
+
+.card-info-1 {
+    border-bottom: 2px dotted #e4e4e4;
+}
+
+.c-footer {
+    border-top: 2px solid #e4e4e4;
+    padding-top: 15px;
+}
+
+.booking-status~.property-card {
+    box-shadow: 0px 0px 7px #000;
+    margin: 25px;
+}
+
+.bg-voucher {
+    background-color: #f5f7fb !important;
+}
+
+.total-amount::after,
+.total-amount::before {
+    display: none;
+}
